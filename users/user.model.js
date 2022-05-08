@@ -11,6 +11,8 @@ const schema = new Schema({
     zip: { type: Number},
     address: { type: String},
     image: { type: String},
+    about: { type: String},
+    Country: { type: String},
     createdDate: { type: Date, default: Date.now }
 });
 
