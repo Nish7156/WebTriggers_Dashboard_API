@@ -12,7 +12,7 @@ const schema = new Schema({
     address: { type: String},
     image: { type: String},
     about: { type: String},
-    Country: { type: String},
+    country: { type: String},
     createdDate: { type: Date, default: Date.now }
 });
 
