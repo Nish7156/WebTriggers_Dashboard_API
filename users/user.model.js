@@ -6,6 +6,11 @@ const schema = new Schema({
     hash: { type: String, required: true },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
+    phone: { type: Number},
+    city: { type: String},
+    zip: { type: Number},
+    address: { type: String},
+    image: { type: String},
     createdDate: { type: Date, default: Date.now }
 });
 
