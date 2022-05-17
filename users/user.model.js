@@ -10,8 +10,7 @@ const schema = new Schema({
     city: { type: String},
     zip: { type: Number},
     address: { type: String},
-    image: {  data: Buffer,
-        contentType: String},
+    image: {  type: String},
     about: { type: String},
     country: { type: String},
     createdDate: { type: Date, default: Date.now }
